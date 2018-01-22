@@ -12,6 +12,9 @@ body {
   font-family: Tahoma, sans-serif;
   color: #006b84;
   background: #e5e5e5;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
 
 }
 
@@ -92,6 +95,7 @@ a:hover {
 .primary,
 .secondary {
   text-align: left;
+  margin-top: 50px;
 }
 
 .read-more {
@@ -107,10 +111,12 @@ a:hover {
 }
 
 .main-footer {
-  width:100%:
+  padding-top:50px;
+  padding-bottom:40px;
   margin-top:50px;
-  margin-bottom:50px;
-  
+  background: #006b84;
+  color: #a5eeff;
+
 }
 /* Float Clearfix ------------------ */
 
